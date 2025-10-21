@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
      <div class="bg-[#000000] flex justify-center gap-60  py-3">
@@ -17,14 +17,32 @@
                 <p class="text-[#FAFAFA] mr-3">English</p>
                 <div>
                 <img src="./assests/down-arrow-img.png" alt="">
-
                 </div>
             </div>
         </div>
     <header>
         <nav>
-            <ul>
-                <li class="text-2xl">Exclusive</li>
+            <ul class="flex items-center justify-center gap-22 mt-10 mb-4">
+                <li class="text-2xl font-bold">Exclusive</li>
+                <li><a class="hover:underline hover:decoration-1" href="">Home</a></li>
+                <li><a class="hover:underline hover:decoration-1" href="">Contact</a></li>
+                <li><a class="hover:underline hover:decoration-1" href="">About</a></li>
+                <li><a class="hover:underline hover:decoration-1" href="">Sign Up</a></li>
+                <li class="flex items-center bg-[#F5F5F5] w-3xs rounded-sm text-xs">
+                    <input class="text-[#000000] py-3 px-5" type="text" placeholder="What are you looking for?">
+                     <div>
+                        <img class="ml-7" src="./assests/magnifying-glass-icon.png" alt=""></div>
+                </li>
+                <li>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <img src="./assests/heart-icon.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assests/cart-icon.png" alt="">
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
